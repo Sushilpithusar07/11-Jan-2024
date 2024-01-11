@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.label{
+    background-color: #23282D;
+    width: 100vw;
+    float: right;
+    display: flex;
+    justify-content: right;
+}
+
+.label a{
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #ffff;
+    float: right;
+    margin-right: 12px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    background-color: #23282D;
+}
+
+.nav-left{
+    display: flex;
+}
+.logo {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 16px;
+}
+.logo:hover{
+    background-color: rgb(26, 25, 25);
+}
+
+.lists{
+    display: flex;
+    align-items: center;
+    /* margin-left: 7px; */
+    /* margin-bottom: 7px; */
+}
+
+.lists a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 14px 14px; 
+}
+.lists a:hover{
+    background-color: rgb(26, 25, 25);
+    text-decoration: underline;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.search{
+    color: #ffff;
+    text-decoration: none;
+    padding: 14px 14px; 
+}
+.search:hover{
+    background-color: rgb(26, 25, 25);
+}
+
+.wordpress-btn{
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #3858e9;
+    margin: 0px 10px 2px 13px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.wordpress-btn:hover{
+    background-color: #0e3afa;
+}
+
+.hero{
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+.hero-main{
+    display: flex;
+    margin-top: 100px;
+}
+.hero-main p{
+    font-size: 100px;
+    font-family: cursive;
+}
+.hero-par{
+    margin-top: 20px;
+}
+.hero-btn{
+    margin-top: 38px;
+}
+.hero-btn a{
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    background-color: #3858e9;
+    /* margin: 0px 10px 2px 13px; */
+    font-weight: bold;
+    border-radius: 2px;
+}
+.hero-btn a:hover{
+    background-color: #1534c0;
+}
